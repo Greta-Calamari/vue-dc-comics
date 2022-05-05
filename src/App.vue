@@ -5,8 +5,8 @@
     </header>
     <main>
     <AppJumbotron/>
-    <AppMain/>
     <AppCard/>
+    <AppMain/>
 
     </main>
 
