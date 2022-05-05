@@ -158,12 +158,15 @@ export default {
     flex-basis: 15%;
     height: 100px;
     color: white;
-    object-fit: contain;
     
     
 
      img{
-       width: 45%;
+       height:230px ;
+       width: 80%;
+       object-fit: cover;
+       object-position: top ;
+      
        
    }
   
