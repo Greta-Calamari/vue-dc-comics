@@ -138,9 +138,14 @@ export default {
   justify-content: center;
 }
   .cards{
+    
     flex-basis: 15%;
-    height: 300px;
+    height: 100px;
     padding: 20px;
+
+    // img{
+    //   width: 100%;
+    // }
   
   }
 
