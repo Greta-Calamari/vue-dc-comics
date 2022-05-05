@@ -1,9 +1,9 @@
 <template>
 
     <div class="jumbotron">
+    </div>
         
 
-    </div>
 </template>
 <script>
 export default {

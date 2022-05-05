@@ -6,6 +6,7 @@
     <main>
     <AppJumbotron/>
     <AppMain/>
+    <AppCard/>
 
     </main>
 
@@ -23,6 +24,10 @@ import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
 import AppFooter from './components/AppFooter.vue'
 import AppJumbotron from './components/AppJumbotron.vue'
+import AppCard from './components/AppCard.vue'
+
+
+
 
 
 
@@ -34,6 +39,8 @@ export default {
     AppMain,
     AppFooter,
     AppJumbotron,
+    AppCard,
+    
   }
 }
 </script>

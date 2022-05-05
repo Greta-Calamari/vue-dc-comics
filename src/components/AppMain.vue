@@ -1,9 +1,10 @@
 <template>
 <div class="container">
     <div class="card-container">
+        
 
-    <h1>- -> CONTENT GOES HERE &lt; - -</h1>
     </div>
+    
     
     
     <div class="container secondC">
@@ -27,8 +28,14 @@
 
 
 <script>
+
+
+
 export default {
   name: 'AppMain',
+
+        
+  
   data(){
       return{
           usefulLinks:[
