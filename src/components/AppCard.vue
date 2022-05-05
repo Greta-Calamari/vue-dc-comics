@@ -116,8 +116,8 @@ export default {
 @import './style/variables';
 
 .items-container{
-  height: 500px;
   background: $background;
+  
   
 }
 .button-second{
@@ -131,16 +131,18 @@ export default {
 
 }
 
-.cards{
-  flex-basis: 10%;
-  height: 300px;
-	padding: 20px;
-
-}
 
 .container-c{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+  .cards{
+    flex-basis: 15%;
+    height: 300px;
+    padding: 20px;
+  
+  }
 
   
 </style>
