@@ -12,6 +12,10 @@
 
 
   </div>
+  <div class="button-secondo">
+    <h4>LOAD MORE</h4>
+
+  </div>
 
 
 </div>
@@ -132,6 +136,16 @@ export default {
 
 }
 
+.button-secondo{
+  width: 200px;
+  padding:20px;
+  background-color: $blueDc;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
 
 .container-c{
   height: 600px;
@@ -143,11 +157,14 @@ export default {
     width: 10%;
     flex-basis: 15%;
     height: 100px;
+    color: white;
+    object-fit: contain;
     
     
 
      img{
        width: 45%;
+       
    }
   
   }
