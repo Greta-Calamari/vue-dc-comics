@@ -13,6 +13,7 @@
 
   </div>
 
+
 </div>
 
 </template>
@@ -133,19 +134,21 @@ export default {
 
 
 .container-c{
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-  .cards{
-    
+.cards{
+    width: 10%;
     flex-basis: 15%;
     height: 100px;
-    padding: 20px;
+    
+    
 
-    // img{
-    //   width: 100%;
-    // }
+     img{
+       width: 45%;
+   }
   
   }
 
