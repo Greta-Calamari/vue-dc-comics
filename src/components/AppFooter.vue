@@ -306,7 +306,8 @@ export default {
     margin-top: 20px;
 }
 .imp{
-    
+    position: relative;
+    bottom: 10px;
     color: $blueDc;
     
 }
